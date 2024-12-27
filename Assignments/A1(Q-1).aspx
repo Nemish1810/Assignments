@@ -14,7 +14,7 @@
             <h2>Enter Your Name</h2>
             <asp:TextBox ID="txtName" runat="server" Placeholder="Your Name"></asp:TextBox>
             <asp:Button ID="btnSubmit" runat="server" Text="Submit" OnClick="btnSubmit_Click" />
-            <br /><br />
+            <br />
             <asp:Label ID="lblMessage" runat="server" ForeColor="Blue"></asp:Label>
         </div>
     </form>
