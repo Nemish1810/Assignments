@@ -69,6 +69,8 @@
   <ItemGroup>
     <Content Include="A1%28Q-1%29.aspx" />
     <Content Include="A1%28Q-2%29.aspx" />
+    <Content Include="A1%28Q-3%29.aspx" />
+    <Content Include="A1%28Q-4%29.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -85,6 +87,20 @@
     </Compile>
     <Compile Include="A1%28Q-2%29.aspx.designer.cs">
       <DependentUpon>A1%28Q-2%29.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="A1%28Q-3%29.aspx.cs">
+      <DependentUpon>A1%28Q-3%29.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="A1%28Q-3%29.aspx.designer.cs">
+      <DependentUpon>A1%28Q-3%29.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="A1%28Q-4%29.aspx.cs">
+      <DependentUpon>A1%28Q-4%29.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="A1%28Q-4%29.aspx.designer.cs">
+      <DependentUpon>A1%28Q-4%29.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
